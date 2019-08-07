@@ -14,7 +14,7 @@ def nyc_pigeon_organizer(data)
   }
   
   org_data.each { |names, categories|
-    categories.each {|subcat, array|
+    categories.each {|subcategories, array|
       data.each { |attribute, categories|
         categories.each { |subcat, array|
           arrays.each { |name|
