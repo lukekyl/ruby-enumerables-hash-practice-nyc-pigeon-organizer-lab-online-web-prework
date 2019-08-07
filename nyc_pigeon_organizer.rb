@@ -17,7 +17,7 @@ def nyc_pigeon_organizer(data)
     categories.each {|subcategories, array|
       data.each { |attribute, categories|
         categories.each { |subcat, array|
-          arrays.each { |name|
+          array.each { |name|
             
             if name == names && subcategories == attribute
               org_data[name][categories] << subcat
