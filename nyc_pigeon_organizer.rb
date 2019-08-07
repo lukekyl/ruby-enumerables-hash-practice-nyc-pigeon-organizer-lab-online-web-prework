@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
     category.each {|subcat, arrays|
       arrays.each {|name|
         if org_data[name].nil?
-          org_data[name] = {}
+          org_data[name][attribute] = []
         end
       }
     }
