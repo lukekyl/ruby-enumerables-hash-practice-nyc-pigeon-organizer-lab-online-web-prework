@@ -6,6 +6,8 @@ def nyc_pigeon_organizer(data)
         if org_data[name].nil?
           org_data[name] = {}
           org_data[name][attribute] = []
+        else
+          org_data[name][attribute = []
         end
       }
     }
