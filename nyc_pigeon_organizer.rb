@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
   }
   org_data.each { |name|
     data.each { |attribute, category|
-      if org_data[name][attribute].nil?
+      
       org_data[name] = attribute
       category.each {|subcat, arrays|
         arrays.each {|pigeon_name|
@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(data)
          end
         }
       }
-    end
+    
     }
   }
   p org_data
