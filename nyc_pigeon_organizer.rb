@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
           arrays.each { |name|
             
             if name == names && subcategories == attribute
-              org_data[names][categories] = subcat
+              org_data[names][categories] << subcat
             end
             
           }
