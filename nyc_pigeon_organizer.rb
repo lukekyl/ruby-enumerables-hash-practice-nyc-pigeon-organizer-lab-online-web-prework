@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
   org_data.each { |name|
     data.each { |attribute, category|
       
-      
       category.each {|subcat, arrays|
         arrays.each {|pigeon_name|
          if name == pigeon_name
